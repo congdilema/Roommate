@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.roommate">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Roommate">
+        <activity
+            android:name=".CalendarFragment.CalendarMainActivity"
+            android:exported="true" />
+        <activity
+            android:name=".GroupCalendar.TimeAddActivity"
+            android:exported="true" />
+        <activity
+            android:name=".GroupCalendar.GroupCalendarAddActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Timeline.TimeChangeActivity"
+            android:exported="true" />
+        <activity
+            android:name=".GroupCalendar.GroupCalendarActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Timeline.CustomTimelineActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Friend.GroupActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Friend.FriendActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Login.RegisterActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Login.LoginActivity"
+            android:exported="true" />
+        <activity
+            android:name=".CustomCalendar.CustomCalendarActivity"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "110433171003",
+    "project_id": "roommate-d1a82",
+    "storage_bucket": "roommate-d1a82.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:110433171003:android:28b257dedbc90000e04e1e",
+        "android_client_info": {
+          "package_name": "com.example.roommate"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCAgLZys1ojVNA7XIqPIpS6JbapcwbVQR8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
